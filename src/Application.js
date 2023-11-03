@@ -3,7 +3,7 @@ import {getOriginalServerPort, sendServerRequest} from './api/restfulAPI';
 import {Container} from 'reactstrap';
 import ErrorBanner from "./ErrorBanner";
 import Home from "./components/Home";
-// import About from "./About/About";
+import About from "./components/About";
 // import Contact from "./Contact/Contact";
 // import Portfolio from "./Portfolio/Portfolio";
 
@@ -46,7 +46,7 @@ export default class Application extends Component {
             case 'about':
                 return (
                     <div>
-                        <div>this is where the about page was</div>;
+                        <About/>
                     </div>);
             default:
                 return <Home pages={this.props.pages}
