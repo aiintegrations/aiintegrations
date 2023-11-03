@@ -28,22 +28,22 @@ function NftCards() {
         <NftCardComponent title="Restaurants"
           src={pizza}
           subTitle={"Chatbot support"}
-          // description="Won 4 top ranking metals in"
+          // 
           Href="#AdditionalInformation-description" />
         <NftCardComponent title="Franchises"
           src={franchise}
           subTitle={"Human-like Responses"}
-          // description="Over 500 photo's available."
+          // 
           Href="#AdditionalInformation-description" />
         <NftCardComponent title="Short Term Rentals"
           src={shortterm}
           subTitle={"Guests' Answers Help"}
-          // description="Competed 10 times, and have placed first in nationals. "
+          // 
           Href="#AdditionalInformation-description" />
         <NftCardComponent title="IT Support"
           src={gpu}
           subTitle={"Pushing the boundaries"}
-          // description="Competed 1 time"
+          // 
           Href="#AdditionalInformation-description" />
       </div>
       <a href="#AdditionalInformation-description" rel="noreferrer" className="btn2 btn2--green">Contact Us</a>
