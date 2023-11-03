@@ -630,6 +630,59 @@ div.card.show {
   .AddressForm-unlockCode {
     visibility: hidden; }
 
+.about-page {
+  padding: 20px; }
+  .about-page section {
+    margin-bottom: 30px; }
+  .about-page__header h1 {
+    color: #333;
+    font-size: 2em; }
+  .about-page__reference .video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; }
+    .about-page__reference .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+  .about-page__reference h2 {
+    color: #555;
+    font-size: 1.5em; }
+  .about-page__team p, .about-page__mission p {
+    color: #666;
+    line-height: 1.6; }
+  .about-page__technologies h3 {
+    color: #333; }
+  .about-page__technologies ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0; }
+    .about-page__technologies ul li {
+      background-color: #f7f7f7;
+      padding: 10px;
+      border-radius: 5px; }
+  .about-page__cta {
+    text-align: center; }
+    .about-page__cta h2 {
+      color: #333;
+      margin-bottom: 15px; }
+    .about-page__cta button {
+      background-color: #0044cc;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; }
+      .about-page__cta button:hover {
+        background-color: #003399; }
+
 .App {
   display: flex;
   flex-direction: column;
