@@ -711,6 +711,9 @@ div.card.show {
 body {
   font-family: 'Playfair Display', serif; }
 
+html {
+  scroll-behavior: smooth; }
+
 .navigation__checkbox {
   display: none; }
 

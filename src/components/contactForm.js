@@ -43,6 +43,10 @@ function ContactForm() {
         <input type="text" name="name" className="AdditionalInformation-name"/>
         <label htmlFor="email" className="AdditionalInformation-email-label">Email:</label>
         <input type="email" name="email" className="AdditionalInformation-email"/> {/* Changed type to email */}
+        <label htmlFor="businessName" className="AdditionalInformation-name-label">Business Name:</label>
+        <input type="text" name="businessName" className="AdditionalInformation-name"/>
+        <label htmlFor="businessWebsite" className="AdditionalInformation-email-label">Business Website:</label>
+        <input type="text" name="businessWebsite" className="AdditionalInformation-email"/> {/* Changed type to email */}
         <label htmlFor="message" className="AdditionalInformation-message-label">Message:</label>
         <textarea name="message" onKeyUp={adjust_textarea} className="AdditionalInformation-message"></textarea>
         <button type="submit" className="btn2 btn2--green">Submit</button>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import NftCardComponent from './nftCards-component';
 import pizza from "../images/pizza.jpeg";
 import franchise from "../images/Franchise.jpeg";
@@ -6,18 +6,6 @@ import gpu from "../images/gpu.jpeg";
 import shortterm from "../images/shortterm.jpeg";
 
 function NftCards() {
-
-  // const [cardData, setCardData] = useState(null);
-
-  // useEffect(() => {
-  //   getGitHubUserWithFetch();
-  // }, []);
-
-  // const getGitHubUserWithFetch = async () => {
-  //   const response = await fetch(gitHubUrl);
-  //   const jsonData = await response.json();
-  //   setCardData(jsonData);
-  // };
 
   return (
     <div className="Nft__card">

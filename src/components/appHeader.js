@@ -1,6 +1,5 @@
 import React from 'react'
 import Icons from './icons';
-import Navigation from './Navigation';
 
 function AppHeader() {
 
