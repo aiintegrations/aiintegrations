@@ -1,9 +1,6 @@
-import React, { useState } from 'react'
-import AddressForm from './addressForm';
-import bgImg from "../images/laptop.jpeg"
+import React from 'react'
 
 function About() {
-  const [unlockCode, setUnlockCode] = useState('');
 
   return (
     <div className="AboutUs">
