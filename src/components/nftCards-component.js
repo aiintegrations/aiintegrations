@@ -5,7 +5,6 @@ import React, {useState} from 'react'
 function NftCardComponent(props) {
 
     const [ dropdownShowing, setDropdownShowing ] = useState(false);
-    const [image2, setImage2] = useState("./images/IMG_4916.jpeg");
 
     const cardEvt = evt => {
         setDropdownShowing(!dropdownShowing);

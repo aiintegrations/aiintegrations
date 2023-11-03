@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
-import {getOriginalServerPort, sendServerRequest} from './api/restfulAPI';
+import {getOriginalServerPort} from './api/restfulAPI';
 import {Container} from 'reactstrap';
 import ErrorBanner from "./ErrorBanner";
 import Home from "./components/Home";
 import About from "./components/About";
-// import Contact from "./Contact/Contact";
-// import Portfolio from "./Portfolio/Portfolio";
 
 
 export default class Application extends Component {
