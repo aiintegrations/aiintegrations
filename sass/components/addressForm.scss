@@ -1,0 +1,47 @@
+.AddressForm {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    
+
+    &-email {
+        @include addressForm;
+    }
+    &-email::placeholder {
+        color: $color-white;
+    }
+
+    &-address {
+        @include addressForm;
+    }
+    &-address::placeholder {
+        color: $color-white;
+    }
+
+    &-country {
+        @include addressForm;
+    }
+    &-country::placeholder {
+        color: $color-white;
+    }
+    
+
+    &-region {
+        @include addressForm;
+    }
+    &-region::placeholder {
+        color: $color-white;
+    }
+    
+
+    &-zipCode {
+        @include addressForm;
+    }
+    &-zipCode::placeholder {
+        color: $color-white;
+    }
+
+    &-unlockCode {
+        visibility: hidden;
+    }
+}

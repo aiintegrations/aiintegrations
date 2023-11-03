@@ -1,0 +1,25 @@
+.Nft__card {
+    // height: 20vh;
+    width: 100%;
+    // background-color: grey;
+    // transform: skewY(-7deg);
+    padding: 5rem 2rem 6rem 2rem;
+
+    &-description {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+    }
+
+    &-component {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

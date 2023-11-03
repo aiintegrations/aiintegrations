@@ -1,0 +1,10 @@
+ghpages.publish(
+    'public',
+    {
+        branch: 'master',
+        repo: '',
+    },
+    () => {
+        console.log('Deploy Complete!')
+    }
+)
