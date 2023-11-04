@@ -1,19 +1,19 @@
 import React from 'react'
-import UnlockableContent from './AboutSection';
+import AboutSection from './AboutSection';
 import AppHeader from './appHeader';
 import NftCards from './nftCards';
 import ContactForm from './contactForm';
 import AppFooter from './appFooter';
 
 
-function Home() {
+function Home(props) {
  
 
   return (
     <div>
       <AppHeader />
       <NftCards />
-      <UnlockableContent />
+      <AboutSection setAppPage={props.setAppPage}/>
       <ContactForm />
       <AppFooter />
     </div>

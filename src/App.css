@@ -3,7 +3,6 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: .8rem 2rem;
-  margin-top: 2rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all .2s;
@@ -34,10 +33,10 @@
     background-color: #fff; }
 
 .btn2--green {
-  background-color: teal;
+  background-color: #1f1f68;
   color: #fff; }
   .btn2--green::after {
-    background-color: teal; }
+    background-color: #1f1f68; }
 
 .btn2::after {
   content: "";
@@ -88,7 +87,7 @@
   color: #fff;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right bottom, rgba(120, 120, 120, 0.4), rgba(1, 1, 1, 0.4)), url("images/AuthorPhoto.jpeg");
+  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AuthorPhoto.jpeg");
   transform: skewY(-7deg); }
   .AboutMe-title {
     text-decoration: underline; }
@@ -245,6 +244,9 @@
 .validCode {
   color: lightgreen; }
 
+#no_smooth_scroll {
+  scroll-behavior: unset; }
+
 .App__header {
   background-size: cover;
   background-position: top;
@@ -252,7 +254,7 @@
   display: flex;
   height: 85vh;
   z-index: 2;
-  background-image: linear-gradient(to right bottom, rgba(120, 120, 120, 0), rgba(1, 1, 1, 0)), url("images/AuthorPhoto.jpeg"); }
+  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AuthorPhoto.jpeg"); }
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
     .App__header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -262,7 +264,7 @@
     .App__header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-      background-image: linear-gradient(to right bottom, rgba(120, 120, 120, 0), rgba(1, 1, 1, 0)), url("images/AuthorPhoto.jpeg"); } }
+      background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AuthorPhoto.jpeg"); } }
   .App__header-authorName {
     width: 100%;
     height: 100%;
@@ -373,7 +375,7 @@
   justify-content: center;
   height: 20vh;
   width: 100%;
-  background-image: linear-gradient(-43deg, #787878 0%, #504f50 46%, #010101 100%);
+  background-image: linear-gradient(-43deg, #f2dec6 0%, #3282C8 46%, #0A1E50 100%);
   color: white;
   text-decoration: none !important; }
   .AppFooter-discord {
@@ -405,7 +407,7 @@ a:link {
   text-decoration: none; }
 
 a.btn {
-  background: teal;
+  background: #1f1f68;
   border-radius: 4px;
   box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
   color: white;
@@ -416,14 +418,14 @@ a.btn {
   transition: all 0.1s 0s ease-out; }
 
 .no-touch a.btn:hover {
-  background: #008d8d;
+  background: #222272;
   box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
   transform: translateY(-2px);
   transition: all 0.25s 0s ease-out; }
 
 .no-touch a.btn:active,
 a.btn:active {
-  background: #007373;
+  background: #1c1c5e;
   box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
   transform: translate3d(0, 1px, 0);
   transition: all 0.025s 0s ease-out; }
@@ -630,58 +632,117 @@ div.card.show {
   .AddressForm-unlockCode {
     visibility: hidden; }
 
-.about-page {
-  padding: 20px; }
-  .about-page section {
-    margin-bottom: 30px; }
-  .about-page__header h1 {
-    color: #333;
-    font-size: 2em; }
-  .about-page__reference .video-container {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%; }
-    .about-page__reference .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0; }
-  .about-page__reference h2 {
-    color: #555;
-    font-size: 1.5em; }
-  .about-page__team p, .about-page__mission p {
-    color: #666;
-    line-height: 1.6; }
-  .about-page__technologies h3 {
-    color: #333; }
-  .about-page__technologies ul {
+.about-page__ted-talk-reference {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column; }
+  @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+    .about-page__ted-talk-reference {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+      height: 95vh; } }
+  @media only screen and (max-width: 37.5em) {
+    .about-page__ted-talk-reference {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+
+.about-page__video-container-iframe {
+  width: 95vw;
+  height: 20rem; }
+  @media only screen and (min-width: 37.5em) {
+    .about-page__video-container-iframe {
+      width: 75vw; } }
+  @media only screen and (min-width: 56.25em) {
+    .about-page__video-container-iframe {
+      width: 55vw; } }
+  @media only screen and (min-width: 75em) {
+    .about-page__video-container-iframe {
+      width: 45rem;
+      height: 30rem; } }
+  @media only screen and (min-width: 112.5em) {
+    .about-page__video-container-iframe {
+      width: 55rem;
+      height: 35rem; } }
+
+.about-page__counter {
+  padding-bottom: 3rem;
+  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.6), rgba(50, 130, 200, 0.6), rgba(230, 180, 120, 0.6));
+  color: white; }
+  .about-page__counter-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    list-style-type: none;
-    padding: 0; }
-    .about-page__technologies ul li {
-      background-color: #f7f7f7;
-      padding: 10px;
-      border-radius: 5px; }
-  .about-page__cta {
-    text-align: center; }
-    .about-page__cta h2 {
-      color: #333;
-      margin-bottom: 15px; }
-    .about-page__cta button {
-      background-color: #0044cc;
-      color: white;
-      padding: 15px 30px;
-      font-size: 1em;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease; }
-      .about-page__cta button:hover {
-        background-color: #003399; }
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .about-page__counter-container-component {
+      color: #1f1f68; }
+
+.about-page__team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 2rem 1rem 2rem;
+  height: 100%;
+  width: 100%; }
+  @media only screen and (min-width: 37.5em) {
+    .about-page__team {
+      flex-direction: row; } }
+  @media only screen and (min-width: 56.25em) {
+    .about-page__team {
+      padding: 1rem 4rem 1rem 4rem; } }
+  @media only screen and (min-width: 75em) {
+    .about-page__team {
+      padding: 1rem 8rem 1rem 8rem; } }
+  .about-page__team-team {
+    padding-right: 1rem; }
+    .about-page__team-team-text {
+      text-align: start; }
+  .about-page__team-mission-text {
+    text-align: start; }
+
+.about-page__technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap; }
+  .about-page__technologies-component {
+    margin: 2rem; }
+
+#boarder-left {
+  display: none; }
+
+#boarder-right {
+  display: none; }
+
+.martop_2 {
+  margin-top: 2rem; }
+
+.counter {
+  width: 10rem;
+  color: #1f1f68;
+  font-size: 3rem;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  transition: 2s; }
+  @media only screen and (min-width: 37.5em) {
+    .counter {
+      width: 13rem;
+      font-size: 3rem; } }
+  @media only screen and (min-width: 56.25em) {
+    .counter {
+      margin: 3rem;
+      font-size: 3rem; } }
+  .counter__text {
+    font-size: 1.5rem;
+    color: #fff; }
 
 .App {
   display: flex;

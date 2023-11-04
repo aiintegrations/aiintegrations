@@ -13,7 +13,7 @@ function Icons() {
             <a href="https://www.instagram.com/zen_aerial" target="_blank" rel="noreferrer" className="AppFooter-instagram">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="mailto:thesustainablegrower@gmail.com" target="_blank" rel="noreferrer" className="AppFooter-twitter">
+            <a href="mailto:ai.integrations.us@gmail.com" target="_blank" rel="noreferrer" className="AppFooter-twitter">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
         </React.Fragment>
