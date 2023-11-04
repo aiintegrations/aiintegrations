@@ -186,7 +186,6 @@
   .AboutMe-validCode {
     padding-top: 6rem; }
   .AboutMe-container {
-    padding: 3rem 1rem 4rem 1rem;
     width: 100%;
     height: 100%;
     display: flex;
@@ -198,18 +197,21 @@
         transform: skewY(13deg);
         flex-direction: column; } }
     .AboutMe-container-left {
-      width: 50%;
       display: flex;
       justify-content: flex-start; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (min-width: 56.25em) {
         .AboutMe-container-left {
-          width: 100%; } }
+          width: 50%; } }
       .AboutMe-container-left-content {
         display: flex;
         padding-left: 2rem;
         flex-direction: column;
         align-items: flex-start;
         text-align: start; }
+        @media only screen and (max-width: 37.5em) {
+          .AboutMe-container-left-content {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem; } }
     .AboutMe-container-right {
       width: 50%;
       padding: 2rem; }
@@ -802,7 +804,7 @@ html {
   position: fixed;
   top: 2.5rem;
   right: 2.5rem;
-  background-image: radial-gradient(black, white);
+  background-image: radial-gradient(#3173ad, #e6b478);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
   @media only screen and (min-width: 37.5em) {
@@ -852,7 +854,7 @@ html {
     display: inline-block; }
   .navigation__link:hover, .navigation__link:active {
     background-position: 100%;
-    color: linear-gradient(to right bottom, rgba(120, 120, 120, 0), rgba(1, 1, 1, 0));
+    color: #1f1f68;
     transform: translateX(1rem); }
 
 .navigation__checkbox:checked ~ .navigation__background {
