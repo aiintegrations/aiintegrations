@@ -34,7 +34,7 @@ function NftCards() {
           // 
           Href="#AdditionalInformation-description" />
       </div>
-      <a href="#AdditionalInformation-description" rel="noreferrer" className="btn2 btn2--green">Contact Us</a>
+      <a href="#Contact" rel="noreferrer" className="btn2 btn2--green">Contact Us</a>
     </div>
   );
 }
