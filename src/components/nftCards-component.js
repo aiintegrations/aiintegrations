@@ -39,7 +39,7 @@ function NftCardComponent(props) {
                         {props.description}
                     </div>
                     <div className="card-offerLink">
-                        <a className="btn" rel="noreferrer" href="#AdditionalInformation-description">Get Started</a>
+                        <a className="btn" rel="noreferrer" href="#Contact">Get Started</a>
                     </div>
                 </div>
             </div>

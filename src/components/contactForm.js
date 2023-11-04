@@ -35,7 +35,7 @@ function ContactForm() {
 
   return (
     <div className="AdditionalInformation">
-      <div className="AdditionalInformation-description" id='AdditionalInformation-description'>
+      <div className="AdditionalInformation-description" id='Contact'>
         Contact us to get started integrating AI chatbots into your website!
       </div>
       <form className="AdditionalInformation-form" onSubmit={submitForm}>
