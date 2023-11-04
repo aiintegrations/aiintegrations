@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/AiIntegrations/static/css/main.1be1ce40.chunk.css",
-    "main.js": "/AiIntegrations/static/js/main.bb7bb191.chunk.js",
-    "runtime-main.js": "/AiIntegrations/static/js/runtime-main.fcb64521.js",
-    "static/js/2.8bb63d16.chunk.js": "/AiIntegrations/static/js/2.8bb63d16.chunk.js",
-    "static/js/3.7254e236.chunk.js": "/AiIntegrations/static/js/3.7254e236.chunk.js",
-    "index.html": "/AiIntegrations/index.html",
-    "static/js/2.8bb63d16.chunk.js.LICENSE.txt": "/AiIntegrations/static/js/2.8bb63d16.chunk.js.LICENSE.txt",
-    "static/media/About_ocean.d87dd5e4.jpeg": "/AiIntegrations/static/media/About_ocean.d87dd5e4.jpeg",
-    "static/media/App.css": "/AiIntegrations/static/media/AuthorPhoto.b4a846dd.jpeg",
-    "static/media/Franchise.83e7d042.jpeg": "/AiIntegrations/static/media/Franchise.83e7d042.jpeg",
-    "static/media/bootstrap.ce6bb8b0.jpg": "/AiIntegrations/static/media/bootstrap.ce6bb8b0.jpg",
-    "static/media/css.5bd8c816.jpg": "/AiIntegrations/static/media/css.5bd8c816.jpg",
-    "static/media/gpu.7c120d40.jpeg": "/AiIntegrations/static/media/gpu.7c120d40.jpeg",
-    "static/media/html.7d984b24.jpg": "/AiIntegrations/static/media/html.7d984b24.jpg",
-    "static/media/java.2d20e68d.jpg": "/AiIntegrations/static/media/java.2d20e68d.jpg",
-    "static/media/laptop.a2c4e4af.jpeg": "/AiIntegrations/static/media/laptop.a2c4e4af.jpeg",
-    "static/media/pizza.d80b9a21.jpeg": "/AiIntegrations/static/media/pizza.d80b9a21.jpeg",
-    "static/media/shortterm.d6eb97eb.jpeg": "/AiIntegrations/static/media/shortterm.d6eb97eb.jpeg"
+    "main.css": "/aiintegrations/static/css/main.8433d5c8.chunk.css",
+    "main.js": "/aiintegrations/static/js/main.b7d38b1b.chunk.js",
+    "runtime-main.js": "/aiintegrations/static/js/runtime-main.316efb99.js",
+    "static/js/2.8bb63d16.chunk.js": "/aiintegrations/static/js/2.8bb63d16.chunk.js",
+    "static/js/3.7254e236.chunk.js": "/aiintegrations/static/js/3.7254e236.chunk.js",
+    "index.html": "/aiintegrations/index.html",
+    "static/js/2.8bb63d16.chunk.js.LICENSE.txt": "/aiintegrations/static/js/2.8bb63d16.chunk.js.LICENSE.txt",
+    "static/media/About_ocean.d87dd5e4.jpeg": "/aiintegrations/static/media/About_ocean.d87dd5e4.jpeg",
+    "static/media/App.css": "/aiintegrations/static/media/AuthorPhoto.b4a846dd.jpeg",
+    "static/media/Franchise.83e7d042.jpeg": "/aiintegrations/static/media/Franchise.83e7d042.jpeg",
+    "static/media/bootstrap.ce6bb8b0.jpg": "/aiintegrations/static/media/bootstrap.ce6bb8b0.jpg",
+    "static/media/css.5bd8c816.jpg": "/aiintegrations/static/media/css.5bd8c816.jpg",
+    "static/media/gpu.7c120d40.jpeg": "/aiintegrations/static/media/gpu.7c120d40.jpeg",
+    "static/media/html.7d984b24.jpg": "/aiintegrations/static/media/html.7d984b24.jpg",
+    "static/media/java.2d20e68d.jpg": "/aiintegrations/static/media/java.2d20e68d.jpg",
+    "static/media/laptop.a2c4e4af.jpeg": "/aiintegrations/static/media/laptop.a2c4e4af.jpeg",
+    "static/media/pizza.d80b9a21.jpeg": "/aiintegrations/static/media/pizza.d80b9a21.jpeg",
+    "static/media/shortterm.d6eb97eb.jpeg": "/aiintegrations/static/media/shortterm.d6eb97eb.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fcb64521.js",
+    "static/js/runtime-main.316efb99.js",
     "static/js/2.8bb63d16.chunk.js",
-    "static/css/main.1be1ce40.chunk.css",
-    "static/js/main.bb7bb191.chunk.js"
+    "static/css/main.8433d5c8.chunk.css",
+    "static/js/main.b7d38b1b.chunk.js"
   ]
 }
