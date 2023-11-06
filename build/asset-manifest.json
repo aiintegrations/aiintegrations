@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aiintegrations/static/css/main.8433d5c8.chunk.css",
-    "main.js": "/aiintegrations/static/js/main.1121bbc7.chunk.js",
+    "main.js": "/aiintegrations/static/js/main.81588a03.chunk.js",
     "runtime-main.js": "/aiintegrations/static/js/runtime-main.316efb99.js",
     "static/js/2.8bb63d16.chunk.js": "/aiintegrations/static/js/2.8bb63d16.chunk.js",
     "static/js/3.7254e236.chunk.js": "/aiintegrations/static/js/3.7254e236.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.316efb99.js",
     "static/js/2.8bb63d16.chunk.js",
     "static/css/main.8433d5c8.chunk.css",
-    "static/js/main.1121bbc7.chunk.js"
+    "static/js/main.81588a03.chunk.js"
   ]
 }

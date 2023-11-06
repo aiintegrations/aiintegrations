@@ -44,7 +44,7 @@ export default class Application extends Component {
             case 'about':
                 return (
                     <div>
-                        <About/>
+                        <About setAppPage={this.props.setAppPage}/>
                     </div>);
             default:
                 return <Home pages={this.props.pages}

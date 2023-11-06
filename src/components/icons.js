@@ -10,7 +10,7 @@ import {
 function Icons() {
     return (
         <React.Fragment>
-            <a href="https://www.instagram.com/zen_aerial" target="_blank" rel="noreferrer" className="AppFooter-instagram">
+            <a href="https://www.instagram.com/ai.integrations.us/" target="_blank" rel="noreferrer" className="AppFooter-instagram">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a href="mailto:ai.integrations.us@gmail.com" target="_blank" rel="noreferrer" className="AppFooter-twitter">
