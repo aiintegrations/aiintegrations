@@ -32,7 +32,8 @@
 
 .btn2--green {
   background-color: #1f1f68;
-  color: #fff; }
+  color: #fff;
+  font-family: 'Playfair Display', serif; }
   .btn2--green::after {
     background-color: #1f1f68; }
 

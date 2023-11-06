@@ -94,7 +94,7 @@ function About(props) {
           <Counter target={100} followChar="+" followText="Projects completed"/>
         </div>
         <div className='martop_2'></div>
-        <a className="btn2 btn2--green" href="#Contact" onClick={() => props.setAppPage('home')}>Contact AI Integrations</a>
+        <a className="btn2 btn2--green" href="#Contact" onClick={() => props.setAppPage('home')}>Contact Us</a>
       </section>
     </div>
   );
