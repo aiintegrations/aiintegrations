@@ -782,8 +782,8 @@ html {
 
 .navigation__button {
   background-color: #fff;
-  height: 7rem;
-  width: 7rem;
+  height: 4rem;
+  width: 4rem;
   position: fixed;
   top: 2rem;
   right: 2rem;
@@ -795,11 +795,13 @@ html {
   @media only screen and (min-width: 37.5em) {
     .navigation__button {
       top: 4rem;
-      right: 4rem; } }
+      right: 4rem;
+      height: 6rem;
+      width: 6rem; } }
 
 .navigation__background {
-  height: 6rem;
-  width: 6rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   position: fixed;
   top: 2.5rem;
@@ -809,8 +811,8 @@ html {
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
   @media only screen and (min-width: 37.5em) {
     .navigation__background {
-      top: 4.5rem;
-      right: 4.5rem; } }
+      top: 5.5rem;
+      right: 5.5rem; } }
 
 .navigation__nav {
   height: 100vh;
@@ -866,27 +868,45 @@ html {
 
 .navigation__icon {
   position: relative;
-  margin-top: 3.5rem; }
+  margin-top: 2rem; }
+  @media only screen and (min-width: 37.5em) {
+    .navigation__icon {
+      margin-top: 3rem; } }
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
-    width: 3rem;
+    width: 1.5rem;
     height: 2px;
     background-color: #333;
     display: inline-block; }
+    @media only screen and (min-width: 37.5em) {
+      .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+        width: 3rem; } }
   .navigation__icon::before, .navigation__icon::after {
     content: "";
     position: absolute;
     left: 0;
     transition: all .2s; }
   .navigation__icon::before {
-    top: -.8rem; }
+    top: -.6rem; }
+    @media only screen and (min-width: 37.5em) {
+      .navigation__icon::before {
+        top: -.8rem; } }
   .navigation__icon::after {
-    top: .8rem; }
+    top: .6rem; }
+    @media only screen and (min-width: 37.5em) {
+      .navigation__icon::after {
+        top: .8rem; } }
 
 .navigation__button:hover .navigation__icon::before {
-  top: -1rem; }
+  top: -.6rem; }
+  @media only screen and (min-width: 37.5em) {
+    .navigation__button:hover .navigation__icon::before {
+      top: -.8rem; } }
 
 .navigation__button:hover .navigation__icon::after {
-  top: 1rem; }
+  top: .6rem; }
+  @media only screen and (min-width: 37.5em) {
+    .navigation__button:hover .navigation__icon::after {
+      top: .8rem; } }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon {
   background-color: transparent; }

@@ -5,14 +5,16 @@
   
     &__button {
       background-color: $color-white;
-      height: 7rem;
-      width: 7rem;
+      height: 4rem;
+      width: 4rem;
       position: fixed;
       top: 2rem;
       right: 2rem;
       @include respond(phone) {
         top: 4rem;
         right: 4rem;
+        height: 6rem;
+        width: 6rem;
       }
       border-radius: 50%;
       z-index: 2000;
@@ -22,15 +24,15 @@
     }
   
     &__background {
-      height: 6rem;
-      width: 6rem;
+      height: 3rem;
+      width: 3rem;
       border-radius: 50%;
       position: fixed;
       top: 2.5rem;
       right: 2.5rem;
       @include respond(phone) {
-        top: 4.5rem;
-        right: 4.5rem;
+        top: 5.5rem;
+        right: 5.5rem;
       }
       background-image: radial-gradient(rgb(49, 115, 173), rgba(230, 180, 120, 1.0));
       z-index: 1000;
@@ -115,15 +117,22 @@
     //ICON
     &__icon {
       position: relative;
-      margin-top: 3.5rem;
+      margin-top: 2rem;
+
+      @include respond(phone) {
+        margin-top: 3rem;
+      }
   
       &,
       &::before,
       &::after {
-        width: 3rem;
+        width: 1.5rem;
         height: 2px;
         background-color: $color-grey-dark-3;
         display: inline-block;
+        @include respond(phone) {
+          width: 3rem;
+        }
       }
   
       &::before,
@@ -134,16 +143,18 @@
         transition: all .2s;
       }
   
-      &::before { top: -.8rem; }
-      &::after { top: .8rem; }
+      &::before { top: -.6rem; @include respond(phone) { top: -.8rem; } }
+      &::after { top: .6rem; @include respond(phone) { top: .8rem; } }
     }
   
     &__button:hover &__icon::before {
-      top: -1rem;
+      top: -.6rem;
+      @include respond(phone) { top: -.8rem; }
     }
   
     &__button:hover &__icon::after {
-      top: 1rem;
+      top: .6rem;
+      @include respond(phone) { top: .8rem; }
     }
   
     &__checkbox:checked + &__button &__icon {
