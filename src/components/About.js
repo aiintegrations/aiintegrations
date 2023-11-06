@@ -44,6 +44,7 @@ function About(props) {
 
   return (
     <div className="about-page">
+      <div id='About'></div>
 
       <section className="about-page__ted-talk-reference" id='about-page' style={{backgroundImage: `linear-gradient(to right bottom, rgba(10, 30, 80, 0.6), rgba(50, 130, 200, 0.6), rgba(230, 180, 120, 0.6)), url(${aboutOcean})`,
                               backgroundPosition: "center",
