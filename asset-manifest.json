@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/aiintegrations/static/css/main.8433d5c8.chunk.css",
-    "main.js": "/aiintegrations/static/js/main.81588a03.chunk.js",
+    "main.css": "/aiintegrations/static/css/main.120ec1b9.chunk.css",
+    "main.js": "/aiintegrations/static/js/main.969525f9.chunk.js",
     "runtime-main.js": "/aiintegrations/static/js/runtime-main.316efb99.js",
-    "static/js/2.8bb63d16.chunk.js": "/aiintegrations/static/js/2.8bb63d16.chunk.js",
+    "static/js/2.5b2d934a.chunk.js": "/aiintegrations/static/js/2.5b2d934a.chunk.js",
     "static/js/3.7254e236.chunk.js": "/aiintegrations/static/js/3.7254e236.chunk.js",
     "index.html": "/aiintegrations/index.html",
-    "static/js/2.8bb63d16.chunk.js.LICENSE.txt": "/aiintegrations/static/js/2.8bb63d16.chunk.js.LICENSE.txt",
+    "static/js/2.5b2d934a.chunk.js.LICENSE.txt": "/aiintegrations/static/js/2.5b2d934a.chunk.js.LICENSE.txt",
     "static/media/About_ocean.d87dd5e4.jpeg": "/aiintegrations/static/media/About_ocean.d87dd5e4.jpeg",
     "static/media/App.css": "/aiintegrations/static/media/AuthorPhoto.b4a846dd.jpeg",
     "static/media/Franchise.83e7d042.jpeg": "/aiintegrations/static/media/Franchise.83e7d042.jpeg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.316efb99.js",
-    "static/js/2.8bb63d16.chunk.js",
-    "static/css/main.8433d5c8.chunk.css",
-    "static/js/main.81588a03.chunk.js"
+    "static/js/2.5b2d934a.chunk.js",
+    "static/css/main.120ec1b9.chunk.css",
+    "static/js/main.969525f9.chunk.js"
   ]
 }
