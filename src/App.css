@@ -28,9 +28,7 @@
 
 .btn2--white {
   background-color: #fff;
-  color: #777; }
-  .btn2--white::after {
-    background-color: #fff; }
+  color: #1f1f68; }
 
 .btn2--green {
   background-color: #1f1f68;
