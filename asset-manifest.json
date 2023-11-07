@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aiintegrations/static/css/main.120ec1b9.chunk.css",
-    "main.js": "/aiintegrations/static/js/main.969525f9.chunk.js",
+    "main.css": "/aiintegrations/static/css/main.1dc86b38.chunk.css",
+    "main.js": "/aiintegrations/static/js/main.d579d041.chunk.js",
     "runtime-main.js": "/aiintegrations/static/js/runtime-main.316efb99.js",
     "static/js/2.5b2d934a.chunk.js": "/aiintegrations/static/js/2.5b2d934a.chunk.js",
     "static/js/3.7254e236.chunk.js": "/aiintegrations/static/js/3.7254e236.chunk.js",
@@ -16,13 +16,14 @@
     "static/media/html.7d984b24.jpg": "/aiintegrations/static/media/html.7d984b24.jpg",
     "static/media/java.2d20e68d.jpg": "/aiintegrations/static/media/java.2d20e68d.jpg",
     "static/media/laptop.a2c4e4af.jpeg": "/aiintegrations/static/media/laptop.a2c4e4af.jpeg",
+    "static/media/logo.b6a9a77e.svg": "/aiintegrations/static/media/logo.b6a9a77e.svg",
     "static/media/pizza.d80b9a21.jpeg": "/aiintegrations/static/media/pizza.d80b9a21.jpeg",
     "static/media/shortterm.d6eb97eb.jpeg": "/aiintegrations/static/media/shortterm.d6eb97eb.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.316efb99.js",
     "static/js/2.5b2d934a.chunk.js",
-    "static/css/main.120ec1b9.chunk.css",
-    "static/js/main.969525f9.chunk.js"
+    "static/css/main.1dc86b38.chunk.css",
+    "static/js/main.d579d041.chunk.js"
   ]
 }
