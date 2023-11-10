@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/aiintegrations/static/css/main.1dc86b38.chunk.css",
-    "main.js": "/aiintegrations/static/js/main.d579d041.chunk.js",
+    "main.css": "/aiintegrations/static/css/main.bacbbacb.chunk.css",
+    "main.js": "/aiintegrations/static/js/main.4669d14e.chunk.js",
     "runtime-main.js": "/aiintegrations/static/js/runtime-main.316efb99.js",
     "static/js/2.5b2d934a.chunk.js": "/aiintegrations/static/js/2.5b2d934a.chunk.js",
     "static/js/3.7254e236.chunk.js": "/aiintegrations/static/js/3.7254e236.chunk.js",
     "index.html": "/aiintegrations/index.html",
     "static/js/2.5b2d934a.chunk.js.LICENSE.txt": "/aiintegrations/static/js/2.5b2d934a.chunk.js.LICENSE.txt",
-    "static/media/About_ocean.d87dd5e4.jpeg": "/aiintegrations/static/media/About_ocean.d87dd5e4.jpeg",
-    "static/media/App.css": "/aiintegrations/static/media/AuthorPhoto.b4a846dd.jpeg",
-    "static/media/Franchise.83e7d042.jpeg": "/aiintegrations/static/media/Franchise.83e7d042.jpeg",
+    "static/media/App.css": "/aiintegrations/static/media/AIIHead.90ff228a.png",
+    "static/media/AIIHeadAbout.543142aa.png": "/aiintegrations/static/media/AIIHeadAbout.543142aa.png",
+    "static/media/Chatbot.e69850ed.png": "/aiintegrations/static/media/Chatbot.e69850ed.png",
+    "static/media/Future.a8238f62.png": "/aiintegrations/static/media/Future.a8238f62.png",
+    "static/media/Growth.107fd1e2.png": "/aiintegrations/static/media/Growth.107fd1e2.png",
+    "static/media/Partnership.a7ecd483.png": "/aiintegrations/static/media/Partnership.a7ecd483.png",
     "static/media/bootstrap.ce6bb8b0.jpg": "/aiintegrations/static/media/bootstrap.ce6bb8b0.jpg",
     "static/media/css.5bd8c816.jpg": "/aiintegrations/static/media/css.5bd8c816.jpg",
-    "static/media/gpu.7c120d40.jpeg": "/aiintegrations/static/media/gpu.7c120d40.jpeg",
     "static/media/html.7d984b24.jpg": "/aiintegrations/static/media/html.7d984b24.jpg",
     "static/media/java.2d20e68d.jpg": "/aiintegrations/static/media/java.2d20e68d.jpg",
     "static/media/laptop.a2c4e4af.jpeg": "/aiintegrations/static/media/laptop.a2c4e4af.jpeg",
-    "static/media/logo.b6a9a77e.svg": "/aiintegrations/static/media/logo.b6a9a77e.svg",
-    "static/media/pizza.d80b9a21.jpeg": "/aiintegrations/static/media/pizza.d80b9a21.jpeg",
-    "static/media/shortterm.d6eb97eb.jpeg": "/aiintegrations/static/media/shortterm.d6eb97eb.jpeg"
+    "static/media/logo.b6a9a77e.svg": "/aiintegrations/static/media/logo.b6a9a77e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.316efb99.js",
     "static/js/2.5b2d934a.chunk.js",
-    "static/css/main.1dc86b38.chunk.css",
-    "static/js/main.d579d041.chunk.js"
+    "static/css/main.bacbbacb.chunk.css",
+    "static/js/main.4669d14e.chunk.js"
   ]
 }
