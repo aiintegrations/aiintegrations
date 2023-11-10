@@ -29,6 +29,9 @@
 }
 
 @mixin respond($breakpoint) {
+    @if $breakpoint == headerFix {
+      @media only screen and (min-width: 20.31em) { @content };    //325px
+    }
     @if $breakpoint == iconFix {
       @media only screen and (min-width: 29.38em) { @content };    //470px
     }

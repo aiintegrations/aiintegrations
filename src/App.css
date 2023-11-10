@@ -86,7 +86,7 @@
   color: #fff;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AuthorPhoto.jpeg");
+  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.6), rgba(33, 90, 139, 0.6), rgba(230, 180, 120, 0.6)), url("images/AIIAboutSection.png");
   transform: skewY(-7deg); }
   .AboutMe-title {
     text-decoration: underline; }
@@ -257,7 +257,7 @@
   flex-direction: column;
   height: 85vh;
   z-index: 2;
-  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AIIHead.png"); }
+  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.6), rgba(50, 130, 200, 0.6), rgba(230, 180, 120, 0.6)), url("images/AIIHead.png"); }
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
     .App__header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -267,7 +267,7 @@
     .App__header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-      background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AIIHead.png"); } }
+      background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.6), rgba(50, 130, 200, 0.6), rgba(230, 180, 120, 0.6)), url("images/AIIHead.png"); } }
   .App__header-authorName {
     display: flex;
     color: white;
@@ -277,8 +277,17 @@
     font-size: 50px;
     font-family: 'Playfair Display', serif; }
     .App__header-authorName-logo {
-      height: 25rem;
+      height: 10rem;
       color: #fff; }
+      @media only screen and (min-width: 20.31em) {
+        .App__header-authorName-logo {
+          height: 12rem; } }
+      @media only screen and (min-width: 29.38em) {
+        .App__header-authorName-logo {
+          height: 14rem; } }
+      @media only screen and (min-width: 37.5em) {
+        .App__header-authorName-logo {
+          height: 20rem; } }
   .App__header-icons {
     display: flex;
     justify-content: center;
@@ -379,7 +388,7 @@
   justify-content: center;
   height: 20vh;
   width: 100%;
-  background-image: linear-gradient(-43deg, #f2dec6 0%, #3282C8 46%, #0A1E50 100%);
+  background-image: linear-gradient(-43deg, #f2dec6 0%, #215a8b 46%, #0A1E50 100%);
   color: white;
   text-decoration: none !important; }
   .AppFooter-discord {

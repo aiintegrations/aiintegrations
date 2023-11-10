@@ -12,10 +12,10 @@
     // background-color: grey;
     background-image: linear-gradient(
         to right bottom,
-        rgba(#0A1E50, 0.4),
-        rgba(#3282C8, 0.4),
-        rgba(#E6B478, 0.4)),
-    url("images/AuthorPhoto.jpeg");
+        rgba(#0A1E50, 0.6),
+        rgba(#3282C8, 0.6),
+        rgba(#E6B478, 0.6)),
+    url("images/AIIHead.png");
 
     @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -28,10 +28,10 @@
         clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
         background-image: linear-gradient(
         to right bottom,
-        rgba(#0A1E50, 0.4),
-        rgba(#3282C8, 0.4),
-        rgba(#E6B478, 0.4)),
-        url("images/AuthorPhoto.jpeg");
+        rgba(#0A1E50, 0.6),
+        rgba(#3282C8, 0.6),
+        rgba(#E6B478, 0.6)),
+        url("images/AIIHead.png");
     }
 
     &-authorName {
@@ -58,6 +58,17 @@
             // width: 10rem;
             height: 10rem;
             color: $color-white;
+
+            @include respond(headerFix) {
+                height: 12rem;
+            }
+            @include respond(iconFix) {
+                height: 14rem;
+            }
+
+            @include respond(phone) {
+                height: 20rem;
+            }
         }
     }
 

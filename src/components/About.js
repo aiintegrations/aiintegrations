@@ -22,6 +22,17 @@ const renderIcon = (id, comp) => {
   );
 }
 
+const scrollToElement = (elementId) => {
+  const element = document.getElementById(elementId);
+
+  if (element) {
+    element.scrollIntoView({
+      behavior: 'auto', // Use 'auto' for immediate jump
+      block: 'start',  // You can adjust this if needed
+    });
+  }
+}
+
 function About(props) {
 
   useEffect(() => {
@@ -95,10 +106,13 @@ function About(props) {
           <Counter target={100} followChar="+" followText="Projects completed"/>
         </div>
         <div className='martop_2'></div>
-        <a className="btn2 btn2--green" href="#Contact" onClick={() => props.setAppPage('home')}>Contact Us</a>
+        <a className="btn2 btn2--green" href="#Contact" onClick={() => {
+                                                                props.setAppPage('home');
+                                                                scrollToElement('Contact');
+                                                                return false;}}>Contact Us</a>
       </section>
     </div>
-  );
+  );  
 }
 
 export default About;
