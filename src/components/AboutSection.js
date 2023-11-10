@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImg from "../images/laptop.jpeg"
+import bgImg from "../images/AIIAboutSection.png"
 
 const scrollToElement = (elementId) => {
   const element = document.getElementById(elementId);

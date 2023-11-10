@@ -36,7 +36,7 @@ function ContactForm() {
   return (
     <div className="AdditionalInformation">
       <div className="AdditionalInformation-description" id='Contact'>
-        Contact us to get started integrating AI chatbots into your website!
+      Transform Your Business with Custom AI: Reach out to begin your journey in harnessing the power of AI chatbots for your website. Discover how our tailored solutions can revolutionize your customer interactions, streamline operations, and drive growth. Let's collaborate to unlock the full potential of AI for your business – contact us now to get started!
       </div>
       <form className="AdditionalInformation-form" onSubmit={submitForm}>
         <label htmlFor="name" className="AdditionalInformation-name-label">Name:</label>

@@ -10,7 +10,6 @@ function AppHeader() {
         <Icons/>
       </div>
       <div className="App__header-authorName">
-        <div className='App__header-authorName-title'>Ai Integrations</div>
         <div className="App__header-authorName-logo">
           <img className='App__header-authorName-logo' src={Logo} alt="Your SVG Image" />
         </div>

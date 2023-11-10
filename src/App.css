@@ -257,7 +257,7 @@
   flex-direction: column;
   height: 85vh;
   z-index: 2;
-  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AuthorPhoto.jpeg"); }
+  background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AIIHead.png"); }
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
     .App__header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -267,7 +267,7 @@
     .App__header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-      background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AuthorPhoto.jpeg"); } }
+      background-image: linear-gradient(to right bottom, rgba(10, 30, 80, 0.4), rgba(50, 130, 200, 0.4), rgba(230, 180, 120, 0.4)), url("images/AIIHead.png"); } }
   .App__header-authorName {
     display: flex;
     color: white;
@@ -277,7 +277,7 @@
     font-size: 50px;
     font-family: 'Playfair Display', serif; }
     .App__header-authorName-logo {
-      height: 10rem;
+      height: 25rem;
       color: #fff; }
   .App__header-icons {
     display: flex;

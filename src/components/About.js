@@ -6,7 +6,7 @@ import python from "../images/python.jpg"
 import blockchain from "../images/blockchain.jpg"
 import bootstrap from "../images/bootstrap.jpg"
 import java from "../images/java.jpg"
-import aboutOcean from "../images/About_ocean.jpeg"
+import aboutOcean from "../images/AIIHeadAbout.png"
 // import "../sass/abstracts"
 
 const renderIcon = (id, comp) => {
