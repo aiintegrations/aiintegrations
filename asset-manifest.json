@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/InnoWaveAiSolutions/static/css/main.ad979998.chunk.css",
-    "main.js": "/InnoWaveAiSolutions/static/js/main.95139712.chunk.js",
+    "main.css": "/InnoWaveAiSolutions/static/css/main.67068dba.chunk.css",
+    "main.js": "/InnoWaveAiSolutions/static/js/main.c681cda0.chunk.js",
     "runtime-main.js": "/InnoWaveAiSolutions/static/js/runtime-main.2588e3be.js",
     "static/js/2.13db1f47.chunk.js": "/InnoWaveAiSolutions/static/js/2.13db1f47.chunk.js",
     "static/js/3.7254e236.chunk.js": "/InnoWaveAiSolutions/static/js/3.7254e236.chunk.js",
@@ -17,12 +17,13 @@
     "static/media/css.5bd8c816.jpg": "/InnoWaveAiSolutions/static/media/css.5bd8c816.jpg",
     "static/media/html.7d984b24.jpg": "/InnoWaveAiSolutions/static/media/html.7d984b24.jpg",
     "static/media/java.2d20e68d.jpg": "/InnoWaveAiSolutions/static/media/java.2d20e68d.jpg",
-    "static/media/laptop.a2c4e4af.jpeg": "/InnoWaveAiSolutions/static/media/laptop.a2c4e4af.jpeg"
+    "static/media/laptop.a2c4e4af.jpeg": "/InnoWaveAiSolutions/static/media/laptop.a2c4e4af.jpeg",
+    "static/media/logo.5b56bb79.svg": "/InnoWaveAiSolutions/static/media/logo.5b56bb79.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2588e3be.js",
     "static/js/2.13db1f47.chunk.js",
-    "static/css/main.ad979998.chunk.css",
-    "static/js/main.95139712.chunk.js"
+    "static/css/main.67068dba.chunk.css",
+    "static/js/main.c681cda0.chunk.js"
   ]
 }
