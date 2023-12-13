@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d7f988a.chunk.css",
-    "main.js": "/static/js/main.47a01d50.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.8a521729.js",
-    "static/js/2.13db1f47.chunk.js": "/static/js/2.13db1f47.chunk.js",
-    "static/js/3.7254e236.chunk.js": "/static/js/3.7254e236.chunk.js",
-    "index.html": "/index.html",
-    "static/js/2.13db1f47.chunk.js.LICENSE.txt": "/static/js/2.13db1f47.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/AIIHead.90ff228a.png",
-    "static/media/AIIHeadAbout.543142aa.png": "/static/media/AIIHeadAbout.543142aa.png",
-    "static/media/Chatbot.e69850ed.png": "/static/media/Chatbot.e69850ed.png",
-    "static/media/Future.a8238f62.png": "/static/media/Future.a8238f62.png",
-    "static/media/Growth.107fd1e2.png": "/static/media/Growth.107fd1e2.png",
-    "static/media/Partnership.a7ecd483.png": "/static/media/Partnership.a7ecd483.png",
-    "static/media/bootstrap.ce6bb8b0.jpg": "/static/media/bootstrap.ce6bb8b0.jpg",
-    "static/media/css.5bd8c816.jpg": "/static/media/css.5bd8c816.jpg",
-    "static/media/html.7d984b24.jpg": "/static/media/html.7d984b24.jpg",
-    "static/media/java.2d20e68d.jpg": "/static/media/java.2d20e68d.jpg",
-    "static/media/laptop.a2c4e4af.jpeg": "/static/media/laptop.a2c4e4af.jpeg",
-    "static/media/logo.5b56bb79.svg": "/static/media/logo.5b56bb79.svg"
+    "main.css": "/InnoWaveAiSolutions/static/css/main.67068dba.chunk.css",
+    "main.js": "/InnoWaveAiSolutions/static/js/main.c681cda0.chunk.js",
+    "runtime-main.js": "/InnoWaveAiSolutions/static/js/runtime-main.2588e3be.js",
+    "static/js/2.13db1f47.chunk.js": "/InnoWaveAiSolutions/static/js/2.13db1f47.chunk.js",
+    "static/js/3.7254e236.chunk.js": "/InnoWaveAiSolutions/static/js/3.7254e236.chunk.js",
+    "index.html": "/InnoWaveAiSolutions/index.html",
+    "static/js/2.13db1f47.chunk.js.LICENSE.txt": "/InnoWaveAiSolutions/static/js/2.13db1f47.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/InnoWaveAiSolutions/static/media/AIIHead.90ff228a.png",
+    "static/media/AIIHeadAbout.543142aa.png": "/InnoWaveAiSolutions/static/media/AIIHeadAbout.543142aa.png",
+    "static/media/Chatbot.e69850ed.png": "/InnoWaveAiSolutions/static/media/Chatbot.e69850ed.png",
+    "static/media/Future.a8238f62.png": "/InnoWaveAiSolutions/static/media/Future.a8238f62.png",
+    "static/media/Growth.107fd1e2.png": "/InnoWaveAiSolutions/static/media/Growth.107fd1e2.png",
+    "static/media/Partnership.a7ecd483.png": "/InnoWaveAiSolutions/static/media/Partnership.a7ecd483.png",
+    "static/media/bootstrap.ce6bb8b0.jpg": "/InnoWaveAiSolutions/static/media/bootstrap.ce6bb8b0.jpg",
+    "static/media/css.5bd8c816.jpg": "/InnoWaveAiSolutions/static/media/css.5bd8c816.jpg",
+    "static/media/html.7d984b24.jpg": "/InnoWaveAiSolutions/static/media/html.7d984b24.jpg",
+    "static/media/java.2d20e68d.jpg": "/InnoWaveAiSolutions/static/media/java.2d20e68d.jpg",
+    "static/media/laptop.a2c4e4af.jpeg": "/InnoWaveAiSolutions/static/media/laptop.a2c4e4af.jpeg",
+    "static/media/logo.5b56bb79.svg": "/InnoWaveAiSolutions/static/media/logo.5b56bb79.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a521729.js",
+    "static/js/runtime-main.2588e3be.js",
     "static/js/2.13db1f47.chunk.js",
-    "static/css/main.6d7f988a.chunk.css",
-    "static/js/main.47a01d50.chunk.js"
+    "static/css/main.67068dba.chunk.css",
+    "static/js/main.c681cda0.chunk.js"
   ]
 }
